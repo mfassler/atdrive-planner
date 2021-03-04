@@ -1,0 +1,24 @@
+
+#map {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ccc;
+}
+
+#extraButtons {
+	background-color: fff;
+	text-align: center;
+	position: fixed;
+	z-index: 430;
+	margin-left: 10px;
+	bottom: 30px;
+	padding: 3px;
+	border: 3px solid #c00;
+	border-radius: 8px;
+}
+
+#extraButtons button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

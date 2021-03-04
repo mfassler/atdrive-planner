@@ -4,4 +4,6 @@ __pycache__
 ## vim swap files:
 .*.swp
 
+CURRENT_MISSION.txt
+geofence.json
 

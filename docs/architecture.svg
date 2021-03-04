@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="architecture.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker4802"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4800" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker4564"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4562" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#1d00cc;stroke-width:1pt;stroke-opacity:1;fill:#1d00cc;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path901" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#1d00cc;stroke-width:1pt;stroke-opacity:1;fill:#1d00cc;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path904" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#1d00cc;stroke-opacity:1;fill:#1d00cc;fill-opacity:1"
+         id="path913" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2336"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2334" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path898" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path916" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path895" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-3-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-3-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-2-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-7-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-9-8-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-3-7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-2-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#1d00cc;fill-opacity:1;fill-rule:evenodd;stroke:#1d00cc;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path916-7-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="669.36199"
+     inkscape:cy="671.51979"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2135"
+       transform="translate(12.032415,5.8208336)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="167.05899"
+         y="57.864658"
+         id="text835"><tspan
+           sodipodi:role="line"
+           id="tspan833"
+           x="167.05899"
+           y="57.864658"
+           style="stroke-width:0.264583">GET /mission.json</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="167.907"
+         y="75.487556"
+         id="text835-3"><tspan
+           sodipodi:role="line"
+           x="167.907"
+           y="75.487556"
+           style="stroke-width:0.264583"
+           id="tspan871">POST /mission.json</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="168.34573"
+         y="93.110458"
+         id="text835-7"><tspan
+           sodipodi:role="line"
+           id="tspan833-5"
+           x="168.34573"
+           y="93.110458"
+           style="stroke-width:0.264583">GET /geofence.json</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="169.19376"
+         y="110.73335"
+         id="text835-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan833-5-1"
+           x="169.19376"
+           y="110.73335"
+           style="stroke-width:0.264583">POST /geofence.json</tspan></text>
+    </g>
+    <g
+       id="g3945"
+       transform="translate(8.9958338,5.8208336)">
+      <rect
+         style="fill:#aef6f6;stroke:#020006;stroke-width:0.26917;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         id="rect1217"
+         width="63.640369"
+         height="127.68182"
+         x="212.72839"
+         y="42.341175" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="244.43144"
+         y="52.498192"
+         id="text1221"><tspan
+           sodipodi:role="line"
+           id="tspan1219"
+           x="244.43144"
+           y="52.498192"
+           style="font-size:7.05556px;stroke-width:0.264583">Web Browser</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;stroke-width:0.264583"
+       x="227.06976"
+       y="71.763519"
+       id="text1225"><tspan
+         sodipodi:role="line"
+         id="tspan1223"
+         x="227.06976"
+         y="71.763519"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583">leaftlet.js</tspan><tspan
+         sodipodi:role="line"
+         x="227.06976"
+         y="75.732269"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan1227">leaflet.draw.js</tspan><tspan
+         sodipodi:role="line"
+         x="227.06976"
+         y="79.701019"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan1229">leaflet.rotatedMarker.js</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 145.95768,65.47803 h 70.13665"
+       id="path1243"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-2)"
+       d="m 145.95768,100.83507 h 70.13665"
+       id="path1243-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-9)"
+       d="M 216.53664,118.87163 H 146.39999"
+       id="path1243-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-9-0)"
+       d="M 216.53664,83.121125 H 146.39999"
+       id="path1243-6-2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="181.54593"
+       y="147.04007"
+       id="text835-7-9-6"><tspan
+         sodipodi:role="line"
+         id="tspan833-5-1-1"
+         x="181.54593"
+         y="147.04007"
+         style="stroke-width:0.264583">GET /offer</tspan><tspan
+         sodipodi:role="line"
+         x="181.54593"
+         y="151.00882"
+         style="stroke-width:0.264583"
+         id="tspan1120">POST /answer</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-9-8)"
+       d="m 211.58404,144.43411 c 0,0 -15.54551,-3.42642 -31.95946,-3.42642 -16.41395,0 -31.95946,3.42642 -31.95946,3.42642"
+       id="path1243-6-9"
+       sodipodi:nodetypes="czc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-9-8-3)"
+       d="m 151.81944,151.76152 c 0,0 15.54551,3.42642 31.95946,3.42642 16.41395,0 31.95947,-3.42642 31.95947,-3.42642"
+       id="path1243-6-9-5"
+       sodipodi:nodetypes="czc" />
+    <g
+       id="g3767"
+       transform="translate(13.57228,3.3040759)">
+      <path
+         style="fill:none;stroke:#1d00cc;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+         d="m 133.06114,161.17368 h 70.13665"
+         id="path1243-0-2"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke:#1d00cc;stroke-width:0.065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="168.22559"
+         y="160.11159"
+         id="text3630"><tspan
+           sodipodi:role="line"
+           id="tspan3628"
+           x="168.22559"
+           y="160.11159"
+           style="text-align:center;text-anchor:middle;stroke:#1d00cc;stroke-width:0.065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WebRTC DataChannel</tspan></text>
+    </g>
+    <rect
+       style="fill:#fbfbfb;stroke:#1d00cc;stroke-width:0.0683725;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3907"
+       width="133.18176"
+       height="157.60675"
+       x="8.3691902"
+       y="28.823921" />
+    <g
+       id="g3945-3"
+       transform="translate(-138.9971,9.6319106)">
+      <rect
+         style="fill:#aef6f6;stroke:#020006;stroke-width:0.26917;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         id="rect1217-6"
+         width="63.640369"
+         height="127.68182"
+         x="212.72839"
+         y="42.341175" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="244.43144"
+         y="52.498192"
+         id="text1221-1"><tspan
+           sodipodi:role="line"
+           id="tspan1219-2"
+           x="244.43144"
+           y="52.498192"
+           style="font-size:7.05556px;stroke-width:0.264583">Web Server</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="75.913185"
+       y="39.395542"
+       id="text3977"><tspan
+         sodipodi:role="line"
+         id="tspan3975"
+         x="75.913185"
+         y="39.395542"
+         style="font-size:8.46667px;stroke-width:0.264583">Rover</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;stroke-width:0.264583"
+       x="152.17863"
+       y="187.80896"
+       id="text4043"><tspan
+         sodipodi:role="line"
+         id="tspan4041"
+         x="152.17863"
+         y="187.80896"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583">The &quot;GET /offer, POST /answer&quot; negotiates the WebRTC connection.</tspan><tspan
+         sodipodi:role="line"
+         x="152.17863"
+         y="191.77771"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4045" /><tspan
+         sodipodi:role="line"
+         x="152.17863"
+         y="195.74646"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4047">The DataChannel provides live updates of </tspan><tspan
+         sodipodi:role="line"
+         x="152.17863"
+         y="199.71521"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4049">the rover's position, and notifications if any files have changed.</tspan></text>
+    <g
+       id="g4090">
+      <rect
+         style="fill:#fde6c6;stroke:#1d00cc;stroke-width:0.086;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         id="rect4027"
+         width="48.537849"
+         height="35.016476"
+         x="15.024348"
+         y="52.792267" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="39.258392"
+         y="56.748856"
+         id="text4031"><tspan
+           sodipodi:role="line"
+           id="tspan4029"
+           x="39.258392"
+           y="56.748856"
+           style="stroke-width:0.264583">... various navigation</tspan><tspan
+           sodipodi:role="line"
+           x="39.258392"
+           y="60.717606"
+           style="stroke-width:0.264583"
+           id="tspan4057">software...</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;stroke-width:0.264583"
+         x="19.978704"
+         y="70.457008"
+         id="text4074"><tspan
+           sodipodi:role="line"
+           id="tspan4072"
+           x="19.978704"
+           y="70.457008"
+           style="font-size:4.23333px;text-align:start;text-anchor:start;stroke-width:0.264583">- LocationServices</tspan><tspan
+           sodipodi:role="line"
+           x="19.978704"
+           y="75.748672"
+           style="font-size:4.23333px;text-align:start;text-anchor:start;stroke-width:0.264583"
+           id="tspan4076">- geofenced</tspan><tspan
+           sodipodi:role="line"
+           x="19.978704"
+           y="81.040329"
+           style="font-size:4.23333px;text-align:start;text-anchor:start;stroke-width:0.264583"
+           id="tspan4078">- autopilot</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="192.44716"
+       y="17.712564"
+       id="text4094"><tspan
+         sodipodi:role="line"
+         id="tspan4092"
+         x="192.44716"
+         y="17.712564"
+         style="font-size:8.46667px;stroke-width:0.264583"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+           id="tspan4096">AT Drive</tspan><tspan
+           style="font-size:9.87778px"
+           id="tspan4098" /></tspan><tspan
+         sodipodi:role="line"
+         x="192.44716"
+         y="29.544403"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         id="tspan4100"><tspan
+           style="font-size:9.87778px"
+           id="tspan4102">Planner</tspan></tspan></text>
+    <image
+       width="30.222956"
+       height="30.222956"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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 jtyyp+O+XUs/0jCwEETtdtvD2DPGxAOyBmE/D+BgXEUZqHie3wBCKSVtt+MBbDVQXPJhYK113Gq2 2hgBVDCFPrNePw/gJK+XgbLbcpta60hrptuen8wzs8GgIpMPAyulw1bLDTA2Te3qkxhvkAcoJdtU s9Fsam1chtf2n7Bf5ngyySeDKqVaYRBIjPGdZMs8QD8BiPzmeZ6vlGwJYdYMSmMBluIiZWccQErV DMMwpseu6bnDQsFmVaEgjKRU61NTJjEkjmNKJaerIWgpDukPRwXJ0j5KyWZgBAB9Unj6CUBjfv5B A9oP/EDKeE2IKu22TxCEVKtlulYhsBQIsy5glNhcSrnum9zwLrumZ/cTgMxvXttzAz/4eHZ2Fs/z uXXrDufOPZsNCdvOQIFIjLHyoE6Q5HAGfvCpjKVPt12z5d37CUBhkgjTLXzw4OFbC4sL3wEO/PR/ 32N9o8nS0rxdMKJgKKVotTw++ug2SimUUhtra+vv0G3PiC08QCqAMNkq777z3tWDhw7869LS0vd8 P6hdv34zWTBCWPMXCa2zeQBCoFy3/V83bty8hrFnGgDKr7A90IOXgP3AvmSbnpubW/r8xVfeWDqw 9BtTpaljCCpsPZxs2XsipdSG23L/+9rV6/9w587dO5gFP1pAMznOyu2wKrxKRwAzQM1xnOqx40eP HTp06NTMzMyhUsmpYpsBxcDM2pZhEK7V6/XlO7fvfOJ5fgsT9HExAnDJ/VZA8rFhl6RG4gGS4yqm 2ihhS38RSVv6MZ24v4cp9S4jTg7VdJYVTS8aYUKJqQBs6S8Wmk5LP8QIwMcIoG9G0HYMKDBGryZb XgCWYpH3AGnDL6DH7ecZpQSng0TpJkb8vOXxk3qAtArY8qdVHsWAIre3AigO+SFa2zu3WCwWi8Vi sVgsFovFYrFYLBaLxWKxwP8DABxP4B+2spsAAAAldEVYdGNyZWF0ZS1kYXRlADIwMDktMTItMDhU MTI6NTE6MDEtMDc6MDDApQ23AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEwLTAxLTExVDA5OjEyOjA1 LTA3OjAw3w10UwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMC0wMS0xMVQwOToxMjowNS0wNzowMK5Q zO8AAAA0dEVYdExpY2Vuc2UAaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvR1BM LzIuMC9sagaoAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTEyLTA4VDEyOjUxOjAxLTA3OjAwnxR7 gwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAXdEVYdFNvdXJjZQBHTk9N RSBJY29uIFRoZW1lwfkmaQAAACB0RVh0U291cmNlX1VSTABodHRwOi8vYXJ0Lmdub21lLm9yZy8y 5JF5AAAAAElFTkSuQmCC "
+       id="image4273"
+       x="12.2182"
+       y="143.24762"
+       style="opacity:0.2719762" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="26.464235"
+       y="154.76691"
+       id="text4279"><tspan
+         sodipodi:role="line"
+         id="tspan4277"
+         x="26.464235"
+         y="154.76691"
+         style="font-size:4.93889px;text-align:start;text-anchor:start;stroke-width:0.264583">- mission.json</tspan><tspan
+         sodipodi:role="line"
+         x="26.464235"
+         y="160.94052"
+         style="font-size:4.93889px;text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4281">- geofence.json</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4802);marker-end:url(#marker4564)"
+       d="m 35.207754,145.1496 c 0.443653,-12.30227 4.866031,-17.59027 11.211884,-22.57575 5.732136,-4.50333 9.668253,-3.34219 22.090805,-3.66878"
+       id="path1243-0-9"
+       sodipodi:nodetypes="csc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;stroke-width:0.264583"
+       x="81.338463"
+       y="75.064102"
+       id="text4930"><tspan
+         sodipodi:role="line"
+         id="tspan4928"
+         x="81.338463"
+         y="75.064102"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583">The main pupose of </tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="79.032852"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4932">the webserver is to read</tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="83.001602"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4934">and write the mission and</tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="86.970352"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4936">geofence files.</tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="90.939102"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4938" /><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="94.907852"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4940">Also provides live updates</tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="98.876602"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4942">of the rover's position via</tspan><tspan
+         sodipodi:role="line"
+         x="81.338463"
+         y="102.84535"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4944">WebRTC DataChannel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;stroke-width:0.264583"
+       x="231.58084"
+       y="111.09795"
+       id="text4930-4"><tspan
+         sodipodi:role="line"
+         x="231.58084"
+         y="111.09795"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan4944-1">The main pupose of the</tspan><tspan
+         sodipodi:role="line"
+         x="231.58084"
+         y="115.0667"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan5020">browser is to edit and</tspan><tspan
+         sodipodi:role="line"
+         x="231.58084"
+         y="119.03545"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan5014">display maps using</tspan><tspan
+         sodipodi:role="line"
+         x="231.58084"
+         y="123.0042"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         id="tspan5022">Leaflet.js</tspan></text>
+  </g>
+</svg>
