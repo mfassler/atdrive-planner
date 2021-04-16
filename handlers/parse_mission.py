@@ -22,11 +22,15 @@ def parse_mission(filename, maxSpeed=6.5):
         cmd = int(pieces[3], 10)
         print("CMD:", cmd)
         if cmd == 16:  # waypoint
-            minSpeed = float(pieces[4])
+            #minSpeed = float(pieces[4])
             radius = float(pieces[5])
             lat = float(pieces[8])
             lon = float(pieces[9])
-            items.append( ('waypoint', (lat, lon, minSpeed, maxSpeed, radius)))
+            # First line is "HOME", which we can't seem to do much with...
+            if len(items) == 0:
+                items.append( ('home', {'lat': lat, 'lon': lon, 'radius': radius}))
+            else:
+                items.append( ('waypoint', {'lat': lat, 'lon': lon, 'radius': radius}))
         elif cmd == 19:  # loiter time
             tWait = float(pieces[4])
             items.append( ('stop', tWait))
@@ -45,5 +49,18 @@ def parse_mission(filename, maxSpeed=6.5):
         else:
             print("Unknown command in mission:", cmd)
 
+    f.close()
+
     return items
+
+
+if __name__ == "__main__":
+    import sys
+    import pprint
+    import shutil
+    fname = sys.argv[1]
+    items = parse_mission(fname)
+
+    cols = shutil.get_terminal_size().columns
+    pprint.pprint(items, width=(cols-5))
 

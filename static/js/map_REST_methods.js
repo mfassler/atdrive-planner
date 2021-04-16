@@ -9,7 +9,6 @@ function get_mission() {
         console.log(mission);
         window._mission = mission;
 
-
         var origin = null;
         var pointList = [];
 
@@ -18,35 +17,60 @@ function get_mission() {
         } catch (error) {
         }
 
-        for (var i=0; i<mission.length; ++i) {
-            var item = mission[i];
-            if (item.length >1) {
-                var cmd = item[0];
-                //console.log(' ---- mission cmd:', cmd);
-                if (cmd == 'waypoint' && item[1].length === 5) {
-                    var lat = item[1][0];
-                    var lon = item[1][1];
-                    var minSpeed = item[1][2];
-                    var maxSpeed = item[1][3];
-                    var radius = item[1][4];
 
-                    if (origin === null) {
-                        origin = [lat, lon];
-                    }
+        // ES6 (2015)
+        for (const item of mission) {
+            const cmd = item[0];
+            const params = item[1];
 
-                    var waypoint = new L.LatLng(lat, lon);
-                    pointList.push(waypoint);
+            switch (cmd) {
+            case 'home':
 
-                    var circle = L.circle([lat, lon], {
-                        color: 'yellow',
-                        //fillColor: '#f03',
-                        fillOpacity: 0.1,
-                        weight: 1,
-                        radius: radius
-                    }).addTo(window._missionLayer);
+                var waypoint = new L.LatLng(params.lat, params.lon);
+                pointList.push(waypoint);
 
+                var circle = L.circle(waypoint, {
+                    color: 'orange',
+                    //fillColor: '#f03',
+                    fillOpacity: 0.1,
+                    weight: 1,
+                    radius: params.radius
+                }).addTo(window._missionLayer);
+
+                if (origin === null) {
+                    origin = waypoint;
+                    window._mapOrigin = origin;
                 }
+                break;
+
+            case 'waypoint':
+
+                var waypoint = new L.LatLng(params.lat, params.lon);
+                pointList.push(waypoint);
+
+                var circle = L.circle(waypoint, {
+                    color: 'yellow',
+                    //fillColor: '#f03',
+                    fillOpacity: 0.1,
+                    weight: 1,
+                    radius: params.radius
+                }).addTo(window._missionLayer);
+
+                if (origin === null) {
+                    origin = [lat, lon];
+                    window._mapOrigin = origin;
+                }
+
+                break;
+
+            default:
+                console.log('Unknown mission item:', cmd);
+                break;
             }
+        }
+
+        if (origin != null) {
+            map.setView(origin, 19, {animate: false});
         }
 
         if (pointList.length > 1) {
@@ -59,9 +83,6 @@ function get_mission() {
             window.firstpolyline.addTo(window._missionLayer);
         }
 
-        if (origin != null) {
-            map.setView(origin, 19, {animate: false});
-        }
     });
 }
 
