@@ -11,6 +11,9 @@ import config
 # One object to manage all WebRTC connections:
 webrtcs = handlers.WebRTCs()
 
+async def start_background_tasks(app):
+    app['myBackgroundTask'] = asyncio.create_task(webrtcs.check_nav_packets())
+
 
 if __name__ == "__main__":
 
@@ -46,8 +49,8 @@ if __name__ == "__main__":
     # These can push live messages to the web browser via the WebRTC DataChannel:
     handlers.file_monitor_setup(app, webrtcs)
 
-    loop = asyncio.get_event_loop()
-    loop.create_task(webrtcs.check_nav_packets())
+    #asyncio.run(webrtcs.check_nav_packets())
+    app.on_startup.append(start_background_tasks)
 
     web.run_app(app, port=config.HTTP_LISTEN_PORT, ssl_context=ssl_context)
 
