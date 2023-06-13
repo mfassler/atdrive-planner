@@ -41,7 +41,8 @@ var mapbox = L.tileLayer(
 
 var google = L.tileLayer('http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}', {
     attribution: 'google',
-    maxZoom: 25,
+    maxNativeZoom: 21,
+    maxZoom: 24,
 });
 
 google.addTo(map);
