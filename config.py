@@ -9,6 +9,7 @@ HTTP_LISTEN_PORT = 8080
 
 MISSION_FILENAME = 'CURRENT_MISSION.txt'
 GEOFENCE_FILENAME = 'geofence.json'
+MARKERS_FILENAME = 'markers.json'
 
 
 ## SSL stuff:

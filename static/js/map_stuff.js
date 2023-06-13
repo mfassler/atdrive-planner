@@ -41,7 +41,7 @@ var mapbox = L.tileLayer(
 
 var google = L.tileLayer('http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}', {
     attribution: 'google',
-    maxZoom: 22,
+    maxZoom: 25,
 });
 
 google.addTo(map);
@@ -85,6 +85,7 @@ map.addControl(new L.Control.Draw({
 
 
 window._missionLayer = L.featureGroup().addTo(map);
+window._markersLayer = L.featureGroup().addTo(map);
 
 map.on(L.Draw.Event.CREATED, function (evt) {
     geofence_layer.addLayer(evt.layer);

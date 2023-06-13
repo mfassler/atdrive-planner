@@ -39,6 +39,7 @@ if __name__ == "__main__":
     #app.router.add_post("/mission.json", handlers.post_mission)
     app.router.add_get("/geofence.json", handlers.get_geofence)
     app.router.add_post("/geofence.json", handlers.post_geofence)
+    app.router.add_get("/markers.json", handlers.get_markers)
 
     # This is to create the WebRTC channel:
     app.router.add_get("/offer", webrtcs.get_offer)

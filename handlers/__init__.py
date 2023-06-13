@@ -20,6 +20,19 @@ async def get_index(request):
     return web.Response(content_type="text/html", text=content)
 
 
+async def get_markers(request):
+    try:
+        #content = open(os.path.join(ROOT, 'geofence.json'), "r").read()
+        content = open(os.path.join(ROOT, config.MARKERS_FILENAME), "r").read()
+        _nothing = json.loads(content)
+    except:
+        print('Failed to parse geofence from file')
+        sys.stdout.flush()
+        # empty GeoJSON object:
+        content = '{"type": "FeatureCollection", "features": []}'
+
+    return web.Response(content_type="application/json", text=content)
+
 async def get_geofence(request):
     try:
         #content = open(os.path.join(ROOT, 'geofence.json'), "r").read()

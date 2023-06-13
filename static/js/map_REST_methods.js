@@ -173,3 +173,49 @@ function get_geofence() {
 }
 
 
+markerIcon = L.icon({
+    iconUrl: '/static/markerIcon.png',
+    iconSize: [21,21],
+    iconAnchor: [10, 10]
+});
+
+
+
+function get_markers() {
+    fetch('/markers.json')
+    .then((response) => response.json())
+    .then((markers) => {
+        window._markers = markers;
+        var origin = null;
+        console.log('markers from server:', markers);
+
+        try {
+            window._markersLayer.clearLayers();
+        } catch (error) {
+        }
+
+        for (const [key, value] of Object.entries(markers)) {
+            console.log('key:', key, 'value:', value);
+
+
+            if ('lat' in value && 'lon' in value && 'hdg' in value) {
+                var markerpoint = new L.LatLng(value.lat, value.lon);
+
+                var aMarker = L.marker(markerpoint, {
+                    icon: markerIcon,
+                    rotationAngle: value.hdg
+                }).addTo(window._markersLayer);
+
+            }
+            if (origin === null) {
+                origin = markerpoint;
+                window._mapOrigin = origin;
+            }
+        }
+
+        if (origin != null) {
+            map.setView(origin, 19, {animate: false});
+        }
+
+    });
+}
